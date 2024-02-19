@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1 id="memo"></h1>
+<p id="demo"></p>
+<p id="same"></p>
+<script>
+  //declares three variable at once
+  var firstName = "Moe", lastName ="Adam", age="52";
+document.getElementById('memo').innerHTML=(firstName +"   "+ lastName+"   "+age);
+    var firstname="Mike";
+    var lastname="Douglas";
+    //declare the full name
+    alert(firstname   +"  "+   lastname);
+  //add the value
+  var total=0;
+  function addMe(x){
+ total +=x;
+}
+  addMe(40);
+  addMe(10);
+  addMe(20);
+  document.getElementById('demo').innerHTML=(total);
+function calculateCatAge(catAge){
+ var catYear = catAge * 7;
+ document.getElementById('same').innerHTML = ("your cat is " +catYear +"years old in  cat years");
+}
+calculateCatAge(6);
+calculateCatAge(5);
+calculateCatAge(9);
+
+    </script>
+</body> 
+</html>
+
+
